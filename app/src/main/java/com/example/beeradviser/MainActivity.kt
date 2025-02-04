@@ -44,16 +44,3 @@ fun getBeers(color: String): List<String> {
     }
 }
 
-fun updateImages(color: String, imageView1: ImageView, imageView2: ImageView) {
-    when (color) {
-        "Light" -> {
-            imageView1.setImageResource(R.drawable.lager)
-            imageView2.setImageResource(R.drawable.ipa)
-        }
-
-        "Amber" -> {
-            imageView1.setImageResource(R.drawable.amber)
-            imageView2.setImageResource(R.drawable.redmoose)
-        }
-    }
-}
